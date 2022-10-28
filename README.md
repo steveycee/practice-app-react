@@ -12,6 +12,10 @@ I used [Create React App](https://github.com/facebook/create-react-app) in order
 
 Open up this folder in your editor of choice (I use VSCode) and open a new terminal, you can run the following to get the application running in a browser in your local machine
 
+### `npm i`
+
+Installs all the dependencies you'd need to start the app below.
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -24,4 +28,4 @@ The above script and others can be found in the `package.json` in the root direc
 
 ## Notes 📗
 
-The original readme for create react app is available [here](https://github.com/facebook/create-react-app/blob/main/packages/cra-template/template/README.md) if you're curious about what the other scripts and dependencies do.
+The original readme for create react app is available [here](https://github.com/facebook/create-react-app/blob/main/packages/cra-template/template/README.md) if you're curious about what the other scripts and dependencies do then go take a look.
