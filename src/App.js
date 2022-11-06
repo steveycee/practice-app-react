@@ -1,8 +1,9 @@
 import "./app.css";
-import Header from "./header_component";
-import Text from "./text_component";
-import Toggle from "./toggle_component";
-import Footer from "./footer_component";
+import Header from "./components/header_component";
+import Text from "./components/text_component";
+import Toggle from "./components/toggle_component";
+import Gallery from "./components/gallery_component";
+import Footer from "./components/footer_component";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Text />
       <Toggle />
+      <Gallery />
       <Footer />
     </>
   );
