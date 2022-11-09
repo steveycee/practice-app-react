@@ -23,7 +23,6 @@ function Toggle() {
         Left click, tap or otherwise interact with this component to change its
         appearance.
       </div>
-      <span className="steve.."></span>
     </>
   );
 }
