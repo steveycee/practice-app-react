@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Verdana", Courier, monospace;
   --primary-blue: rgb(1, 56, 144);
   --primary-blue-gradient: linear-gradient(
     90deg,
@@ -34,7 +34,8 @@
   max-width: 70%;
   padding: 1rem;
   margin: 1rem;
-  border: 1px solid black;
+  border: 2px solid black;
+  border-radius: 25px;
 }
 
 /* .slider {

@@ -27,6 +27,7 @@ function Gallery() {
   };
   return (
     <div className="tile">
+      <h2>Gallery Component</h2>
       <div className="slider">
         {sliderArr.map((item, index) => {
           return (
@@ -48,6 +49,7 @@ function Gallery() {
           ▶
         </button>
       </div>
+      <p>test</p>
     </div>
   );
 }
