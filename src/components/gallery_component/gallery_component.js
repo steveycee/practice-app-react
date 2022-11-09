@@ -28,6 +28,7 @@ function Gallery() {
   return (
     <div className="tile">
       <h2>Gallery Component</h2>
+      <p>Basic Gallery component with locally stored images.</p>
       <div className="slider">
         {sliderArr.map((item, index) => {
           return (
@@ -49,7 +50,13 @@ function Gallery() {
           ▶
         </button>
       </div>
-      <p>test</p>
+      {/* <div className="galleryLowerButtons">
+        <span> ⚪️ </span>
+        <span> ⚪️ </span>
+        <span> ⚪️ </span>
+        <span> ⚪️ </span>
+        <span> ⚪️ </span>
+      </div> */}
     </div>
   );
 }

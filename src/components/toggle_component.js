@@ -17,11 +17,15 @@ function Toggle() {
           // backgroundColor: isActive ? "salmon" : "",
           background: isActive ? "var(--primary-blue-gradient)" : "",
           color: isActive ? "white" : "",
+          cursor: "pointer",
         }}
         onClick={handleClick}
       >
-        Left click, tap or otherwise interact with this component to change its
-        appearance.
+        <h2>Basic click/tap interaction component</h2>
+        <p>
+          Left click, tap or otherwise interact with this component to change
+          its appearance.
+        </p>
       </div>
     </>
   );

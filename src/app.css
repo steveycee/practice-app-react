@@ -4,12 +4,17 @@
   justify-content: center;
   align-items: center;
   font-family: "Verdana", Courier, monospace;
+  font-size: 16px;
   --primary-blue: rgb(1, 56, 144);
   --primary-blue-gradient: linear-gradient(
     90deg,
     rgba(0, 31, 77, 1) 0%,
     rgba(0, 64, 133, 1) 100%
   );
+}
+
+h2 {
+  font-size: 1.25rem;
 }
 
 .header {
@@ -85,8 +90,8 @@
 
 @media (min-width: 500px) {
   .tile {
-    min-width: 50%;
-    max-width: 50%;
+    min-width: 60%;
+    max-width: 60%;
   }
 }
 
