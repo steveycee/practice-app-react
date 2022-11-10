@@ -43,20 +43,23 @@ function Gallery() {
             </div>
           );
         })}
-        <button id="goLeft" className="navButton" onClick={goLeft}>
+        <button
+          aria-label="go to previous image"
+          id="goLeft"
+          className="navButton"
+          onClick={goLeft}
+        >
           ◀
         </button>
-        <button id="goRight" className="navButton" onClick={goRight}>
+        <button
+          aria-label="go to next image"
+          id="goRight"
+          className="navButton"
+          onClick={goRight}
+        >
           ▶
         </button>
       </div>
-      {/* <div className="galleryLowerButtons">
-        <span> ⚪️ </span>
-        <span> ⚪️ </span>
-        <span> ⚪️ </span>
-        <span> ⚪️ </span>
-        <span> ⚪️ </span>
-      </div> */}
     </div>
   );
 }
