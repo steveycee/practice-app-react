@@ -28,7 +28,10 @@ function Gallery() {
   return (
     <div className="tile">
       <h2>Gallery Component</h2>
-      <p>Basic Gallery component with locally stored images.</p>
+      <p>
+        Basic Gallery component with locally stored images. Now with Jest Tests
+        🧪.
+      </p>
       <div className="slider">
         {sliderArr.map((item, index) => {
           return (
