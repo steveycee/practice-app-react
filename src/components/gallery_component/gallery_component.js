@@ -34,6 +34,8 @@ function Gallery() {
           return (
             <div
               key={index}
+              aria-label={`slide ${index}`}
+              title="slide"
               className="slide"
               style={{
                 transform: `translateX(${x}%)`,
