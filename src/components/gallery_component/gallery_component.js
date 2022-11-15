@@ -30,7 +30,7 @@ function Gallery() {
       <h2>Gallery Component</h2>
       <p>
         Basic Gallery component with locally stored images. Now with Jest Tests
-        🧪.
+        and Github actions. 🧪.
       </p>
       <div className="slider">
         {sliderArr.map((item, index) => {
