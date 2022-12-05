@@ -1,7 +1,7 @@
 // import { useState } from "react";
-import "./slider.css";
+import "./gallery-component.css";
 
-function ImgComp({ src }) {
+function GalleryImageComponent({ src }) {
   let imgStyles = {
     width: 100 + "%",
     heigh: "auto",
@@ -9,4 +9,4 @@ function ImgComp({ src }) {
   return <img src={src} alt="slide-img" style={imgStyles}></img>;
 }
 
-export default ImgComp;
+export default GalleryImageComponent;

@@ -1,20 +1,20 @@
 import { useState } from "react";
-import "./slider.css";
-import ImgComp from "./ImgComp";
-import i1 from "./pics/1.avif";
-import i2 from "./pics/2.avif";
-import i3 from "./pics/3.avif";
-import i4 from "./pics/4.avif";
-import i5 from "./pics/5.avif";
+import "./gallery-component.css";
+import GalleryImageComponent from "./gallrey-image-component";
+import i1 from "./images/1.avif";
+import i2 from "./images/2.avif";
+import i3 from "./images/3.avif";
+import i4 from "./images/4.avif";
+import i5 from "./images/5.avif";
 
 function Gallery() {
   // let sliderArr = [1, 2, 3, 4, 5];
   let sliderArr = [
-    <ImgComp src={i1} />,
-    <ImgComp src={i2} />,
-    <ImgComp src={i3} />,
-    <ImgComp src={i4} />,
-    <ImgComp src={i5} />,
+    <GalleryImageComponent src={i1} />,
+    <GalleryImageComponent src={i2} />,
+    <GalleryImageComponent src={i3} />,
+    <GalleryImageComponent src={i4} />,
+    <GalleryImageComponent src={i5} />,
   ];
   const [x, setX] = useState(0);
   const goLeft = () => {
