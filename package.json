@@ -16,10 +16,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test:cypress:open": "cypress open",
-    "test:cypress:run": "cypress run",
-    "test:cypress:comp": "cypress run --component",
-    "test:cypress:comp:percy": "percy exec -- cypress run --component",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:percy:e2e": "percy exec -- cypress run",
+    "cypress:comp": "cypress run --component",
+    "cypress:percy:comp": "percy exec -- cypress run --component",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

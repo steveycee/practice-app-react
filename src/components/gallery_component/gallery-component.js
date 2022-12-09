@@ -1,11 +1,11 @@
 import { useState } from "react";
 import "./gallery-component.css";
-import GalleryImageComponent from "./gallrey-image-component";
-import i1 from "./images/1.avif";
-import i2 from "./images/2.avif";
-import i3 from "./images/3.avif";
-import i4 from "./images/4.avif";
-import i5 from "./images/5.avif";
+import GalleryImageComponent from "./gallery-image-component";
+import i1 from "./images/1.jpg";
+import i2 from "./images/2.jpg";
+import i3 from "./images/3.jpg";
+import i4 from "./images/4.jpg";
+import i5 from "./images/5.jpg";
 
 function Gallery() {
   // let sliderArr = [1, 2, 3, 4, 5];
@@ -27,10 +27,10 @@ function Gallery() {
   };
   return (
     <div className="tile">
-      <h2>Gallery Component.</h2>
+      <h2>Gallery Component</h2>
       <p>
         Basic Gallery component with locally stored images. Now with Jest Tests
-        and Github actions ADAM. 🧪.
+        and Github actions. 🧪.
       </p>
       <div className="slider">
         {sliderArr.map((item, index) => {
