@@ -12,7 +12,17 @@ import Footer from "./components/footer-component";
 function App() {
 	return (
 		<div className="flexContainer">
-			<Header />
+			<Header
+				title="React Testing App"
+				strapline={[
+					"An app to allow me to both learn React web development and practice/try out other testing libraries.",
+					" Here you can find a link to my ",
+					<a href="reference">blog</a>,
+					" and my ",
+					<a href="reference">website</a>,
+					".",
+				]}
+			/>
 			<Text />
 			<Toggle />
 			<Gallery />
