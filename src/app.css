@@ -1,11 +1,4 @@
-#root {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-body {
+:root{
   font-family: "Verdana", Courier, monospace;
   font-size: 16px;
   --primary-blue: rgb(1, 56, 144);
@@ -16,7 +9,7 @@ body {
   );
 }
 
-sarahSaysDontDoStylingOnIds {
+.flexContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;

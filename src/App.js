@@ -10,18 +10,18 @@ import APIDriven from "./components/api-driven-component";
 import Footer from "./components/footer-component";
 
 function App() {
-  return (
-    <>
-      <Header />
-      <Text />
-      <Toggle />
-      <Gallery />
-      <Form />
-      <Menu />
-      <APIDriven />
-      <Footer />
-    </>
-  );
+	return (
+		<div className="flexContainer">
+			<Header />
+			<Text />
+			<Toggle />
+			<Gallery />
+			<Form />
+			<Menu />
+			<APIDriven />
+			<Footer />
+		</div>
+	);
 }
 
 export default App;
