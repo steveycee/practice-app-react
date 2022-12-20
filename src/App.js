@@ -17,9 +17,13 @@ function App() {
 				strapline={[
 					"An app to allow me to both learn React web development and practice/try out other testing libraries.",
 					" Here you can find a link to my ",
-					<a href="reference">blog</a>,
+					<a href="https://steveycee.wordpress.com/" target="_blank">
+						blog
+					</a>,
 					" and my ",
-					<a href="reference">website</a>,
+					<a href="https://steveycee.com/" target="_blank">
+						website
+					</a>,
 					".",
 				]}
 			/>
